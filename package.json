@@ -1,13 +1,22 @@
 {
-  "name": "agent",
+  "name": "openrouter-langchain-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A terminal-based AI agent powered by LangChain and OpenRouter with web search, page extraction, and Notion integration.",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "notes": "node src/workflows/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "langchain",
+    "openrouter",
+    "cli",
+    "agent",
+    "ai",
+    "langgraph"
+  ],
+  "author": "SHAROZ221",
   "license": "ISC",
   "type": "module",
   "dependencies": {
